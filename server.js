@@ -35,7 +35,8 @@ var heading=data.heading;
 var content=data.content;
 
 var htmlTemplate='<html><head><title>${title}</title><meta name="viewport" content="width-device-width,initial-scale-1"/><body><div class="container"><a href="/">Home</a></div><hr/><h3>${heading}</h3><div>${data}</div><div>${content}</div></div></body></head><></html>'
-
+;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
