@@ -10,20 +10,20 @@ var articles={
      title:'Article one|Aakriti',
      heading:'Article one',
      date:'sep 5 2016',
-     content:'<p> this is article one </p>'
+     content:`<p> this is article one </p>`
     },
     'article-two':{
      title:'Article two|Aakriti',
      heading:'Article two',
      date:'sep 5 2016',
-     content:'<p> this is article two</p>'
+     content:`<p> this is article two</p>`
     },
     
     'article-three':{
      title:'Article three|Aakriti',
      heading:'Article three',
      date:'sep 5 2016',
-     content:'<p> this is article three </p>'
+     content:`<p> this is article three </p>`
     },
 }
 
