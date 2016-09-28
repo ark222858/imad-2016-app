@@ -84,7 +84,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/:articleName',function(req,res){
+app.get('/:articleName',function (req,res) {
     var articleName=reg.prarams.articleName;
     res.send(createTemplate(articles[articleName]));
 });
