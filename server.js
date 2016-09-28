@@ -36,7 +36,6 @@ var content=data.content;
 
 var htmlTemplate='
 
-<html>
     <head>
         <title>
             ${title}
@@ -68,6 +67,7 @@ var htmlTemplate='
     
 </html>
 ';
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
