@@ -5,3 +5,4 @@ var element=document.getElementById('main-text');
 element.innerHTML='New Value';
 
 //make the image move
+var img=document.getElementById('madi');
