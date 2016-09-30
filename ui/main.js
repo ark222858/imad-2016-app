@@ -1,12 +1,13 @@
 //counter code
 var button=document.getElementById('counter');
-var count=0;
+
 button.onclick=function(){
     
     //create a request to cunter endpoint
     var request=new XMLHttpRequest();
+    
     //capture the response and store it in a variable
-    request.onreadystatechanfe=function(){
+    request.onreadystatechange=function(){
         if(request.readyState==XMLHttpRequest.DONE){
             //take some action
             if(reuest.status==200){
