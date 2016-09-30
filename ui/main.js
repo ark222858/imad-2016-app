@@ -3,7 +3,7 @@ var button=document.getElementById('counter');
 var count=0;
 button.onclick=function(){
     
-    //make a request to cunter endpoint
+    //create a request to cunter endpoint
     var request=new XMLHttpRequest();
     //capture the response and store it in a variable
     request.onreadystatechanfe=function(){
@@ -17,4 +17,7 @@ button.onclick=function(){
             
         }
     };
+     //make a request to cunter endpoint
+     request.open('GET','http://ark222858.imad.hasura-app.io/counter',true);
+     request.send(null);
 };
